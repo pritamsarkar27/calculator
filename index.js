@@ -55,7 +55,7 @@
     currentInput = "";
     previousInput = "";
     operator = null;
-    display.value = "";
+    display.value = "0";
   });
   del.addEventListener("click",()=>{
     currentInput=currentInput.toString().slice(0,-1);  
